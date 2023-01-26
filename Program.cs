@@ -65,11 +65,11 @@ int num = Convert.ToInt32(Console.ReadLine());
 
 int i = 1;
 
-for (i = 1; i >= num; i++)
+while (i <= num)
 {
     if (i % 2 == 0)
     {
         Console.Write(i + " ");
-        i++;
     }
-}
+    i++;
+}    
